@@ -20,8 +20,9 @@ String Aftershift=Shift("Ramin",1,2);
     	System.out.println("size of string is--- " + size );
     	String str2;
       str2=str.substring(left,size)+str.substring(0,left);
+//      int size2=str2.length();
       System.out.println("String after left shift--  "+ str2);
-      str=str2.substring(size-right,size-1 )+str2.substring(0, right);
+     str=str2.substring(size-right,size)+str2.substring(0, right+1);
     	
        return str;
         
